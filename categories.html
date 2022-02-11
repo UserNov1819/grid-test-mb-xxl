@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Категории телефонов</title>
+    <link rel="stylesheet" href="./css/categories.css">
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .class__grid {
+        width: 230px;
+        height: 100px;
+        background-color: red;
+        border: 2px solid blue;
+        margin: 30px auto;
+        justify-content: center;
+    }
+
+    @media only screen and (max-width: 1220px) {
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin: 0 auto;
+            justify-content: center;
+        }
+    }
+
+    @media only screen and (max-width: 789px) {
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin: 0 auto;
+            justify-content: center;
+        }
+    }
+
+    @media only screen and (max-width: 425px) {
+        .wrapper {
+            display: grid;
+            grid-template-columns: 1fr;
+            margin: 0 auto;
+            justify-content: center;
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="class__grid"></div>
+        <div class="class__grid"></div>
+        <div class="class__grid"></div>
+        <div class="class__grid"></div>
+        <div class="class__grid"></div>
+        <div class="class__grid"></div>
+        <div class="class__grid"></div>
+        <div class="class__grid"></div>
+        <div class="class__grid"></div>
+        <div class="class__grid"></div>
+        <div class="class__grid"></div>
+        <div class="class__grid"></div>
+        <div class="class__grid"></div>
+        <div class="class__grid"></div>
+        <div class="class__grid"></div>
+        <div class="class__grid"></div>
+        <div class="class__grid"></div>
+        <div class="class__grid"></div>
+        <div class="class__grid"></div>
+        <div class="class__grid"></div>
+    </div>
+</body>
+
+</html>
